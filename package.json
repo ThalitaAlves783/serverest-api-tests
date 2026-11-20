@@ -1,0 +1,13 @@
+{
+  "name": "serverest-api-tests",
+  "version": "1.0.0",
+  "description": "Testes automatizados de API REST da ServeRest com Node.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "Thalita Alves",
+  "license": "MIT"
+}
