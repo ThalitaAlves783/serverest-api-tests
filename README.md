@@ -1,5 +1,7 @@
 # Testes de API · ServeRest 🔌
 
+![Testes de API](https://github.com/ThalitaAlves783/serverest-api-tests/actions/workflows/tests.yml/badge.svg)
+
 Testes automatizados da API REST pública [ServeRest](https://serverest.dev), escritos em **JavaScript** com o executor de testes nativo do **Node.js** (`node:test`), sem dependências externas.
 
 Este projeto faz parte da minha transição para **automação de testes**. Sou analista de QA certificada **ISTQB® CTFL v4.0**.
