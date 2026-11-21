@@ -18,4 +18,18 @@ async function cadastrarUsuario(usuario) {
   return { status: resposta.status, corpo };
 }
 
-module.exports = { listarUsuarios, cadastrarUsuario };
+// POST /login: realizar login de um usuário
+async function loginUsuario(credenciais) {
+  const resposta = await fetch(`${BASE_URL}/login`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(credenciais),
+  });
+  const corpo = await resposta.json();
+  return { status: resposta.status, corpo };
+}
+
+
+
+
+module.exports = { listarUsuarios, cadastrarUsuario, loginUsuario };

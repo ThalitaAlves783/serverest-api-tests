@@ -9,10 +9,10 @@ Este projeto faz parte da minha transição para **automação de testes**. Sou 
 | Endpoint | Cenário | Status esperado | Situação |
 |---|---|---|---|
 | `GET /usuarios` | Listar usuários | 200 | ✅ Automatizado |
-| `POST /usuarios` | Cadastrar usuário novo | 201 | 🚧 Em andamento |
-| `POST /usuarios` | Cadastrar com e-mail já usado | 400 | 🔜 Próximo |
-| `POST /login` | Login com credenciais válidas | 200 | 🔜 Próximo |
-| `POST /login` | Login com senha errada | 401 | 🔜 Próximo |
+| `POST /usuarios` | Cadastrar usuário novo | 201 |✅ Automatizado  |
+| `POST /usuarios` | Cadastrar com e-mail já usado | 400 | ✅ Automatizado  |
+| `POST /login` | Login com credenciais válidas | 200 | ✅ Automatizado  |
+| `POST /login` | Login com senha errada | 401 | ✅ Automatizado  |
 
 ## Decisões de teste
 
