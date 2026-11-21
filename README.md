@@ -41,10 +41,10 @@ test/usuarios.test.js   → testes do recurso /usuarios
 
 ## Próximos passos
 
-- [x] Primeiro teste de API (GET /usuarios)
-- [ ] Testes de cadastro: sucesso e e-mail repetido
-- [ ] Testes de login: sucesso e senha inválida
-- [ ] Testes rodando no GitHub Actions a cada commit
+- [X] Primeiro teste de API (GET /usuarios)
+- [X] Testes de cadastro: sucesso e e-mail repetido
+- [X] Testes de login: sucesso e senha inválida
+- [X] Testes rodando no GitHub Actions a cada commit
 
 ## Contato
 
